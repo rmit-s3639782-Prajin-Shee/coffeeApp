@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">CoffeeApp</string>
+    <string name="title_activity_product_list">ProductListActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="MilkType">
+        <item>Normal</item>
+        <item>Soy</item>
+        <item>Almond</item>
+        <item>Skim</item>
+    </string-array>
+
+    <string-array name="SugarLevel">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="CoffeeStrength">
+        <item>Weak</item>
+        <item>Regular</item>
+        <item>Strong</item>
+        <item>Black</item>
+    </string-array>
+</resources>

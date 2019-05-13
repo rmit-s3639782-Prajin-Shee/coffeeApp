@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/productCardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="90dp"
+    android:layout_marginBottom="10dp">
+
+    <RelativeLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+    <ImageView
+        android:id="@+id/coffeeImg"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:id="@+id/coffeeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coffee Name"
+        android:layout_toRightOf="@+id/coffeeImg"
+        android:layout_margin="20dp"/>
+
+     <TextView
+         android:id="@+id/coffeeDesc"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Coffee Desc"
+         android:layout_below="@+id/coffeeName"
+         android:layout_toRightOf="@+id/coffeeImg"
+         android:layout_marginLeft="20dp"/>
+
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>
